@@ -9,9 +9,7 @@ const Home: React.FC = () => {
 	  Login
 	  </IonButton>
 	  <br></br>
-	   <IonButton>
-	  Register
-	  </IonButton>
+	   <IonButton href="Register"> Register </IonButton>
       </IonContent>
     </IonPage>
   );
