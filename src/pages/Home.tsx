@@ -7,7 +7,7 @@ const Home: React.FC = () => {
       <IonContent className="ion-padding">
 	  <IonButton size= "large" href="Login">Login</IonButton>
 	  <br></br>
-	   <IonButton href="Register"> Register </IonButton>
+	   <IonButton size= "large" href="Register"> Register </IonButton>
       </IonContent>
     </IonPage>
   );
