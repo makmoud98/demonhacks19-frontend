@@ -8,7 +8,7 @@ const Login: React.FC = () => {
 		<IonInput placeholder= "email"></IonInput>
 		<IonLabel>Password: </IonLabel>
 		<IonInput placeholder= "Password"></IonInput>
-		<IonButton>SignIn </IonButton>	
+		<IonButton>Sign In </IonButton>	
       </IonContent>
     </IonPage>
   );
