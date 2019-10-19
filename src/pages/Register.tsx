@@ -9,7 +9,7 @@ const Register: React.FC = () => {
 		Customer
 		</IonButton>
 			<br></br>
-		<IonButton>
+		<IonButton href="BusinessRegister">
 		Business
 		</IonButton>
       </IonContent>
