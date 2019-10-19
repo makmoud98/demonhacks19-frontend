@@ -5,13 +5,15 @@ const Home: React.FC = () => {
   return (
     <IonPage>
       <IonContent className="ion-padding">
-	  <IonButton size= "large">
-	  Login
-	  </IonButton>
-	  <br></br>
-	   <IonButton size= "large">
-	  Register
-	  </IonButton>
+	      <div text-center>
+		  <IonButton size= "large">
+		  Login
+		  </IonButton>
+		  <br></br>
+		   <IonButton size= "large">
+		  Register
+		  </IonButton>
+		</div>	  
       </IonContent>
     </IonPage>
   );
