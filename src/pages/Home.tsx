@@ -1,13 +1,11 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonIcon} from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonInput, IonLabel, IonButton, IonIcon} from '@ionic/react';
 import React from 'react';
 
 const Home: React.FC = () => {
   return (
     <IonPage>
       <IonContent className="ion-padding">
-	  <IonButton size= "large">
-	  Login
-	  </IonButton>
+	  <IonButton size= "large" href="Login">Login</IonButton>
 	  <br></br>
 	   <IonButton size= "large" href="Register"> Register </IonButton>
       </IonContent>
