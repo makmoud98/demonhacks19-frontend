@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonIcon} from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonInput, IonLabel, IonButton, IonIcon} from '@ionic/react';
 import React from 'react';
 
 const Home: React.FC = () => {
