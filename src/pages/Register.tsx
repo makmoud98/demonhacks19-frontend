@@ -5,7 +5,7 @@ const Register: React.FC = () => {
   return (
     <IonPage>
       <IonContent className="ion-padding">
-		<IonButton>
+		<IonButton href="CustomerRegister">
 		Customer
 		</IonButton>
 			<br></br>
