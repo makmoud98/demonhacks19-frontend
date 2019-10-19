@@ -5,9 +5,7 @@ const Home: React.FC = () => {
   return (
     <IonPage>
       <IonContent className="ion-padding">
-	  <IonButton size= "large">
-	  Login
-	  </IonButton>
+	  <IonButton size= "large" href="Login">Login</IonButton>
 	  <br></br>
 	   <IonButton href="Register"> Register </IonButton>
       </IonContent>
