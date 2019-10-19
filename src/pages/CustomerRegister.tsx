@@ -6,13 +6,13 @@ const CustomerRegister: React.FC = () => {
     <IonPage>
       <IonContent className="ion-padding">
 		<IonLabel>E-mail*</IonLabel>
-		<IonInput placeholder="Enter Email"></IonInput>
+		<IonInput type="email" placeholder="Enter Email"></IonInput>
 		<IonLabel>Password*</IonLabel>
-		<IonInput placeholder="Enter Password"></IonInput>
+		<IonInput type="text" placeholder="Enter Password"></IonInput>
 		<IonLabel>Age*</IonLabel>
-		<IonInput placeholder="Enter Age"></IonInput>
+		<IonInput type="number" placeholder="Enter Age"></IonInput>
 		<IonLabel>Gender</IonLabel>
-		<IonInput placeholder="Enter Gender"></IonInput>
+		<IonInput type="text" placeholder="Enter Gender"></IonInput>
 		<IonButton>
 		Submit
 		</IonButton>
