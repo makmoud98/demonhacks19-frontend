@@ -28,7 +28,7 @@ class Login extends React.Component {
           <IonInput placeholder= "email"></IonInput>
           <IonLabel>Password: </IonLabel>
           <IonInput placeholder= "password"></IonInput>
-          <IonButton onClick={this.onClick}>Sign In </IonButton> 
+          <IonButton size="large" color="tertiary" shape="round" fill="outline" onClick={this.onClick}>Sign In </IonButton> 
         </IonContent>
       </IonPage>
     )
