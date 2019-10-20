@@ -7,6 +7,8 @@ import Register from './pages/Register';
 import CustomerRegister from './pages/CustomerRegister';
 import BusinessRegister from './pages/BusinessRegister';
 import BusinessDash from './pages/BusinessDash';
+import CustomerDashboard from './pages/CustomerDashboard';
+
 import Login from './pages/Login';
 
 /* Core CSS required for Ionic components to work properly */
@@ -38,6 +40,8 @@ const App: React.FC = () => (
 		<Route path="/customerregister" component={CustomerRegister} />
 		<Route path="/businessregister" component={BusinessRegister} />
 		<Route path="/businessdash" component={BusinessDash} />
+		<Route path="/CustomerDashboard" component={CustomerDashboard} />
+
 		<Route path="/login" component={Login} />
       </IonRouterOutlet>
     </IonReactRouter>
