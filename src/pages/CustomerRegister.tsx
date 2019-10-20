@@ -13,7 +13,7 @@ const CustomerRegister: React.FC = () => {
 		<IonInput placeholder="Enter Age"></IonInput>
 		<IonLabel>Gender</IonLabel>
 		<IonInput placeholder="Enter Gender"></IonInput>
-		<IonButton size="large" shape="round" fill="outline">
+		<IonButton>
 		Submit
 		</IonButton>
       </IonContent>
