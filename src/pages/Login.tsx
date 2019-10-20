@@ -1,4 +1,5 @@
 import { IonContent, IonPage, IonButton, IonInput, IonLabel} from '@ionic/react'
+import { Redirect } from 'react-router-dom'
 import React from 'react'
 import axios from 'axios'
 
@@ -15,14 +16,14 @@ class Login extends React.Component {
       if(res.status === 200){
         console.log('success!')
         var type = res.data.type;
-        if(type == 'consumer'){
-          return <Redirect to='/target' />
+        if(type === 'consumer'){
+          console.log(type)
+          return <Redirect to='/consumerdash'/>
         }
-        else if(type == 'business'){
-
+        else if(type === 'business'){
+          return <Redirect to='/businessdash'/>
         }
         else{
-
         }
       }
     })
