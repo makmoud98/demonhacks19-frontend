@@ -15,7 +15,7 @@ const BusinessRegister: React.FC = () => {
 		<IonInput placeholder="Describe your Company"></IonInput>
 		<IonLabel>Interests*</IonLabel>
 		<IonInput placeholder="i.e (coffee shop, fast food, auto parts....)"></IonInput>
-		<IonButton size="large" color="tertiary" shape="round" fill="outline">
+		<IonButton size="large" color="tertiary" shape="round" fill="outline" href="BusinessDash">
 		Submit
 		</IonButton>
       </IonContent>
