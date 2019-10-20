@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Register from './pages/Register';
 import CustomerRegister from './pages/CustomerRegister';
 import BusinessRegister from './pages/BusinessRegister';
+import BusinessDash from './pages/BusinessDash';
 import Login from './pages/Login';
 
 /* Core CSS required for Ionic components to work properly */
@@ -36,6 +37,7 @@ const App: React.FC = () => (
 		<Route path="/Register" component={Register} />
 		<Route path="/CustomerRegister" component={CustomerRegister} />
 		<Route path="/BusinessRegister" component={BusinessRegister} />
+		<Route path="/BusinessDash" component={BusinessDash} />
 		<Route path="/Login" component={Login} />
       </IonRouterOutlet>
     </IonReactRouter>
