@@ -1,4 +1,4 @@
-import { IonInput, IonItem, IonLabel,IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonIcon} from '@ionic/react';
+import { IonInput, IonLabel, IonContent, IonPage, IonButton} from '@ionic/react';
 import React from 'react';
 import {Map, GoogleApiWrapper} from 'google-maps-react';
  
@@ -9,14 +9,14 @@ const CustomerRegister: React.FC = () => {
     <IonPage>
       <IonContent className="ion-padding">
 		<IonLabel>E-mail*</IonLabel>
-		<IonInput type="email" placeholder="Enter Email"></IonInput>
+		<IonInput placeholder="Enter Email"></IonInput>
 		<IonLabel>Password*</IonLabel>
-		<IonInput type="text" placeholder="Enter Password"></IonInput>
+		<IonInput placeholder="Enter Password"></IonInput>
 		<IonLabel>Age*</IonLabel>
-		<IonInput type="number" placeholder="Enter Age"></IonInput>
+		<IonInput placeholder="Enter Age"></IonInput>
 		<IonLabel>Gender</IonLabel>
-		<IonInput type="text" placeholder="Enter Gender"></IonInput>
-		<IonButton>
+		<IonInput placeholder="Enter Gender"></IonInput>
+		<IonButton size="large" shape="round" fill="outline">
 		Submit
 		</IonButton>
       </IonContent>

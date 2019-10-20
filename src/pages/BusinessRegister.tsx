@@ -1,4 +1,4 @@
-import { IonInput, IonItem, IonLabel,IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonIcon} from '@ionic/react';
+import { IonInput, IonLabel, IonContent, IonPage, IonButton} from '@ionic/react';
 import React from 'react';
 
 const BusinessRegister: React.FC = () => {
@@ -15,7 +15,7 @@ const BusinessRegister: React.FC = () => {
 		<IonInput placeholder="Describe your Company"></IonInput>
 		<IonLabel>Interests*</IonLabel>
 		<IonInput placeholder="i.e (coffee shop, fast food, auto parts....)"></IonInput>
-		<IonButton>
+		<IonButton size="large" shape="round" fill="outline">
 		Submit
 		</IonButton>
       </IonContent>
