@@ -1,5 +1,8 @@
 import { IonInput, IonLabel, IonContent, IonPage, IonButton} from '@ionic/react';
 import React from 'react';
+import {Map, GoogleApiWrapper} from 'google-maps-react';
+ 
+
 
 const CustomerRegister: React.FC = () => {
   return (
