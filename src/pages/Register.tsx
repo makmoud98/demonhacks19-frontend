@@ -5,11 +5,11 @@ const Register: React.FC = () => {
   return (
     <IonPage>
       <IonContent className="ion-padding">
-		<IonButton href="CustomerRegister">
+		<IonButton size="large" color="tertiary" shape="round" fill="outline" href="CustomerRegister">
 		Customer
 		</IonButton>
 			<br></br>
-		<IonButton href="BusinessRegister">
+		<IonButton size="large" color="tertiary" shape="round" fill="outline" href="BusinessRegister">
 		Business
 		</IonButton>
       </IonContent>
